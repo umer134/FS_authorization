@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.reg-page{
+    background:  rgb(24, 24, 43);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reg-page .container .head-party{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+.log-reg{
+    font-size: 27px;
+    height: 100px;
+}
+
+.log-reg .registren {
+    color: aliceblue;
+}
+
+.log-reg .login{
+    margin-top: 32px;
+    cursor: pointer;
+}
+
+.log-reg .login:hover{
+    color: aliceblue;
+}
+
+a{
+    text-decoration: none;
+    color:blueviolet
+}
+
+.reg-page .content .person-block .person-info{
+    display: flex;
+    flex-direction: column;
+}
+.person-info input {
+    font-size: 20px;
+    height: 49px;
+    width: 440px;
+    margin: 10px 0;
+    background: none;
+    outline: none;
+    border: 1px solid rgb(134, 134, 134);
+    color: aliceblue;
+    padding-left: 10px;
+}
+
+.age{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.age input{
+    background: none;
+    outline: none;
+    border: 1px solid rgb(134, 134, 134);
+    font-size: 22px;
+    color: gray;
+    padding-left: 10px;
+    width: 240px;
+    height: 39px;
+}
+
+.age button {
+    width: 130px;
+    height: 33px;
+    margin-left: 40px;
+    background: rgb(70, 51, 121);
+    color: aliceblue;
+}

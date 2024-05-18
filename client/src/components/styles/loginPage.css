@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.login-page {
+    height: 100vh;
+    background:  rgb(24, 24, 43);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+   text-decoration: none;
+   color: blueviolet;
+}
+
+.login-page .content {
+    width: 600px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color:rgb(98, 98, 133) ; */
+}
+
+h2{
+    margin-bottom: 10px;
+    margin: 0 54px;
+}
+h2:hover{
+    margin-bottom: 10px;
+    color: white;
+    margin: 0 54px;
+}
+
+.log-form input{
+    border: 1px solid rgb(134, 134, 134);
+    padding: 10px;
+    height: 35px;
+    color: aliceblue;
+    margin: 0 10px ;
+    font-size: 20px;
+    outline: none;
+    background: rgb(24, 24, 43);
+}
+.reg-log{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 21px;
+}
+
+.sign-in{
+    color: white;
+}
+
+.email-inp,
+.pass-inp{
+    margin: 10px;
+}
+
+.btn-block{
+    margin-left: 10px;
+}
+
+.btn-block button {
+    background: rgb(32, 32, 122);
+    color:white;
+    height: 35px;
+    width: 266px;
+    margin: 0 10px;
+    font-size: 20px;
+    padding: 5px;
+}
